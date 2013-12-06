@@ -32,7 +32,7 @@ class UDPCliente
       while (!textoDigitado.equals("fim"))
       {
          // lê uma linha do teclado
-         System.out.print("Digite a mensagem (fim = encerrar): ");
+         System.out.print("Digite a mensagemm (fim = encerrar): ");
          textoDigitado = teclado.readLine();
          msgEnviar = textoDigitado.getBytes();
 
